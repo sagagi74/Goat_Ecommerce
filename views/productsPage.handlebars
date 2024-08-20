@@ -1,0 +1,30 @@
+<section class="container">
+    <div class="row" style="">
+    {{#if loggedIn}}
+        {{#each Products as |Product| }}
+            <div class="col-3 border border-secondary" style="">
+                <a class="cursor-pointer text-decoration-none" href="/products/{{Product.product_id}}">
+                    <div class="d-block mt-4 mx-auto" style="width: 90%; height: 220px; overflow: hidden;">
+                        <img src="{{Product.product_url}}" style="width: 100%;" alt="" />
+                    </div>
+                    <p class="ml-3 mb-0 fs-5 text-secondary">{{Product.product_name}}</p>
+                    <p class="ml-3 fs-6 fw-bold">{{Product.price}}</p>                    
+                </a>
+            </div>
+        {{/each}}
+    {{else}}
+        {{#each Products as |Product| }}
+            <div class="col-3 border border-secondary" style="">
+                <a class="cursor-pointer text-decoration-none" href="/products/{{Product.product_id}}">
+                    <div class="d-block mt-4 mx-auto" style="width: 90%; height: 220px; overflow: hidden;">
+                        <img src="{{Product.product_url}}" style="width: 100%;" alt="" />
+                    </div>
+                    <p class="ml-3 mb-0 fs-5 text-secondary">{{Product.product_name}}</p>
+                    <p class="ml-3 fs-6 fw-bold">Login to view price</p>                  
+                </a>
+            </div>
+        {{/each}}
+    {{/if}}
+    </div>
+</section>
+

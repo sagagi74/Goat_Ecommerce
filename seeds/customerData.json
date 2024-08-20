@@ -1,0 +1,39 @@
+[
+  {
+    "first_name" : "Gagan",
+    "last_name" : "Singh",
+    "email_address" : "gaganjitv@gmail.com",
+    "password" : "TeamGoat"
+  },
+  {
+    "first_name" : "Gary",
+    "last_name" : "Wu",
+    "email_address" : "garykachunwu@gmail.com",
+    "password" : "TeamGoat"
+  },
+  {
+    "first_name" : "Felix",
+    "last_name" : "Tang", 
+    "email_address" : "fsmunozteng@gmail.com",
+    "password" : "TeamGoat"
+  },
+  {
+    "first_name" : "Saim",
+    "last_name" : "Diaz",
+    "email_address" : "odiazstrandberg@gmail.com",
+    "password" : "TeamGoat"
+  },
+  {
+    "first_name" : "Romulo",
+    "last_name" : "Apostol",
+    "email_address" : "romuloapostol@gmail.com",
+    "password" : "TeamGoat"
+  },
+  {
+    "first_name" : "Yong",
+    "last_name" : "Yun",
+    "email_address" : "yongwooyun@hotmail.com",
+    "password" : "TeamGoat"
+  }
+
+]

@@ -1,0 +1,45 @@
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    font-size: larger;
+}
+
+h2 {
+    color: #343a40;
+}
+
+.order-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+/*add border radius to the images and shadow*/
+.order-image {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*
+this is adding color the text
+*/
+.list-group-item strong {
+    color: #007bff;
+}
+
+.list-group-item:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+.row 
+{
+    margin-bottom: 20px;
+}
+

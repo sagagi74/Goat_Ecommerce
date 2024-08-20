@@ -1,0 +1,28 @@
+[
+    {   
+        "Transaction_id": "1", 
+        "Product_id": "3", 
+        "ordered":  "1"
+    },
+    {   
+        "Transaction_id": "1", 
+        "Product_id": "3", 
+        "ordered":  "1"
+    },
+    {
+        "Transaction_id": "1", 
+        "Product_id": "4", 
+        "ordered": "1"
+    },
+    {
+        "Transaction_id": "2", 
+        "Product_id": "1", 
+        "ordered":  "0"
+    },
+    {   
+        "Transaction_id": "3", 
+        "Product_id": "3", 
+        "ordered":  "0"
+    }
+  
+]

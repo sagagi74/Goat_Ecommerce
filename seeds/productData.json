@@ -1,0 +1,74 @@
+[
+    {
+        "product_name": "Any Doubt? Trucker Hat",
+        "product_description" : "RED, GREEN, ANY DOUBT? Adjustable hat for all your doubts.", 
+        "product_url" : "/images/any-doubt-hat.png", 
+        "price": "31.99"
+    },
+    {
+        "product_name" : "Goats" ,
+        "product_description" : "A herd of 5 goats",
+        "product_url" : "https://live.staticflickr.com/27/58824804_88698983f5_b.jpg", 
+        "price" : "2000.00"
+    },
+    {
+        "product_name": "Any Doubt? Shirt",
+        "product_description" : "RED, GREEN, ANY DOUBT? Does anybody want to have this amazing shirt?", 
+        "product_url" : "/images/any-doubt-shirt.png", 
+        "price": "24.99"
+    },
+    {
+        "product_name": "Git? What? Huh? %$@*!&^# Shirt",
+        "product_description" : "Great cotton white shirt for all your GitHub questions and confusion.", 
+        "product_url" : "/images/git-hub-what-shirt.png", 
+        "price": "26.95"
+    },
+    {
+        "product_name": "JavaScript Shirt",
+        "product_description" : "Have a favorite coding language? Try our soft, and comfortable JavaScript shirt.", 
+        "product_url" : "/images/java-script-shirt.png", 
+        "price": "22.99"
+    },
+    {
+        "product_name": "Team Michael Chloe Shirt",
+        "product_description" : "Who's your favorite...... LOOK IT'S CHLOE!", 
+        "product_url" : "/images/team-michael-chloe-shirt.png", 
+        "price": "32.99"
+    },
+    {
+        "product_name": "Team Michael Headphones Shirt",
+        "product_description" : "Soft, comfortable shirt for Team Michael!", 
+        "product_url" : "/images/team-michael-headphones-shirt.png", 
+        "price": "22.99"
+    },
+    {
+        "product_name": "Team Michael Card Shirt",
+        "product_description" : "Are you a suporter of Michael's amazing card game? Check out this great shirt for Team Michael!", 
+        "product_url" : "/images/team-michael-poker-shirt.png", 
+        "price": "24.99"
+    },
+    {
+        "product_name": "Team Nick Beanie",
+        "product_description" : "Ever want to have a beanie just like TA Nick? Now you can match!", 
+        "product_url" : "/images/team-nick-beanie.png", 
+        "price": "34.99"
+    },
+    {
+        "product_name": "Team Nick Shirt",
+        "product_description" : "Comfort, cotton white shirt to show support for Team Nick!", 
+        "product_url" : "/images/team-nick-shirt.png", 
+        "price": "29.99"
+    },
+    {
+        "product_name": "Team Robbert Baby Carrots Shirt",
+        "product_description" : "Team Robbert and his baby carrots, Get this awesome, amazing, and breathable shirt.", 
+        "product_url" : "/images/team-robbert-baby-carrots-shirt.png", 
+        "price": "28.99"
+    },
+    {
+        "product_name": "Team Robbert GOAT Shirt",
+        "product_description" : "GOATS? Who doesn't love goats? Amazing, soft, and comfortable shirt for Team Robbert!", 
+        "product_url" : "/images/team-robbert-goat-charge-shirt.png", 
+        "price": "1337.00"
+    }
+]

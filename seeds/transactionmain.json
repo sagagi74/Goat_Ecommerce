@@ -1,0 +1,17 @@
+[
+    {   
+        "total":  "168.97", 
+        "customer_id": "1", 
+        "ordered":  "1" 
+    },
+    {
+        "total":  "12.99", 
+        "customer_id": "1", 
+        "ordered":  "0"
+    },
+    {
+        "total":  "79.99", 
+        "customer_id": "2", 
+        "ordered":  "0"
+    }
+]

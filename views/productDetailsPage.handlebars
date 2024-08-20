@@ -1,0 +1,25 @@
+<script
+  src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+  integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+  crossorigin="anonymous">
+</script>
+
+<section class="product text-center">
+  <img src="{{Products.product_url}}" alt="{{Products.product_description}}" height="400" width="400" id="product-image">
+  <div class="product-details">
+    <h4 id="product-name">{{Products.product_name}}</h4>
+    <h5 id="product-description">{{Products.product_description}}</h5>
+    {{#if loggedIn}}
+    <h6 id="product-price">Cost: ${{Products.price}}</h6>
+    <form class="product-bought">
+      <input type="number" style="width: 4em" id="product-quantity" placeholder="0"/>
+      <button type="submit" class="btn btn-warning btn-sm">ADD</button>
+    </form>
+    {{else}}
+    <h6 id="product-price">Login to view price</h6>
+    {{/if}}
+  </div>
+  <p class="d-none" id="customerID">{{customer_id}}</p>
+</section>
+
+<script src="/js/product.js"></script>

@@ -1,0 +1,27 @@
+
+body {
+    background-color: #f8f9fa;
+}
+.container {
+    margin-top: 50px;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.cardHeader {
+    background-color: purple;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cardHeader h2 {
+    color: white;
+}
+.btnHome {
+    background-color: #28a745;
+    color: white;
+}
+.btnHome:hover {
+    background-color: #218838;
+    color: white;
+}

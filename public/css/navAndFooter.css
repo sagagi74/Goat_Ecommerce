@@ -1,0 +1,183 @@
+*{
+    font-family: 'Poppins', 'san-serif';
+}
+
+#navbar {
+    background-color: #fdb927;
+}
+
+#navbar a {
+    color: #552583;
+    position: relative;
+    text-decoration: none;
+}
+
+#navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    background: #552583;
+    border-radius: 0px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s; 
+}
+
+#navbar a:hover {
+    color: #8a3fd0;
+}
+
+#navbar a:hover::after {
+    color: #8a3fd0;
+    background: #8a3fd0;
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+#navbar button {
+    color: #552583;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+#navbar button:hover {
+    color: #8a3fd0;
+    outline: none;
+    text-decoration: underline;
+}
+
+#footer {
+    background-color: #552583;
+}
+
+#footer svg {
+    color: white;
+}
+
+#footer svg:hover {
+    cursor: pointer;
+    color: #fdb927;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box h2 {
+    font-size: 2em;
+    color: #552583;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #552583;
+    margin: 30px 0; 
+}
+
+.input-box label {
+    position: absolute;
+    top: 40%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #552583;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+/* causes placeholder labels to move up when user clicks on input field */
+.input-box input:focus~label, 
+.input-box input:valid~label {
+  top: -10px;
+}
+
+.input-box input { /* blends in input boxes and expands to size of the container */
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    /* css below in this class adjusts the sizing display of the user inputted data in the input fields and prevents overlap with icons */
+    font-size: 1em;
+    color: #552583;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+.input-box .icon {  /* moves icons to the right */
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #552583;
+    line-height: 57px;
+}
+
+.remember-forgot {
+    font-size: 15px !important;
+    color: #552583;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: right;
+}
+
+.remember-forgot label input {
+    accent-color: #8a3fd0;
+    margin: 3px;
+}
+  
+.remember-forgot a {
+    color: #552583;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    color: #8a3fd0;
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: #552583;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+
+.btn:hover {
+    color: #8a3fd0;
+}
+
+.login_register {
+    font-size: 0px;
+    color: #552583;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+
+.login_register p a {
+    color: #552583;
+    text-decoration: none;
+    font-weight: 600;
+}
+  
+.login_register p a:hover {
+    color: #8a3fd0;
+    text-decoration: underline;
+}

@@ -1,0 +1,37 @@
+<div class="containerFluid mt-5">
+    <h1 class="mb-4">Order History</h1>
+    <div class="row">
+        <div class="col-lg-10 mx-auto">
+            <div class="tableResponsive">
+                <table class="table tableBordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Order ID</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each data as |order|}}
+                        <!-- Making each row clickable and waht ever row is clicked that id will go to api to display that specific orders -->
+                        <tr class="clickableRow" data-href="/orderDetail/{{order.transaction_id}}" target="blank">
+                            <td>{{order.transaction_id}}</td>
+                            <td>{{order.created_date}}</td>
+                            <td>${{order.total}}</td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function($) {
+            $(".clickableRow").click(function() {
+                window.location = $(this).data("href");
+            });
+        });
+    </script>
+</body>
